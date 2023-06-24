@@ -32,7 +32,7 @@ public class Sample {
                         uniqueWords.add(testedWord);
                 }
                 Collections.sort(uniqueWords);
-                uniqueWords.forEach(System.out::println);
+                
                 for (int i = 0; i < uniqueWords.size(); i++) {
                     System.out.println(uniqueWords.get(i));
                 }
